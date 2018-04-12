@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>
+      Bloque 1 - Torre de Babel
+    </title>
+    <link rel="shortcut icon" href="..\favicon.ico">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-cyan.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <style>
+    .avatar {
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .demo-ribbon {
+      width: 100%;
+      height: 40vh;
+      background-color: #3F51B5;
+      flex-shrink: 0;
+    }
+
+    .demo-main {
+      margin-top: -35vh;
+      flex-shrink: 0;
+    }
+
+    .demo-header .mdl-layout__header-row {
+      padding-left: 40px;
+    }
+
+    .demo-container {
+      max-width: 1600px;
+      width: calc(100% - 16px);
+      margin: 0 auto;
+    }
+
+    .demo-content {
+      border-radius: 2px;
+      padding: 80px 56px;
+      margin-bottom: 80px;
+    }
+
+    .demo-layout.is-small-screen .demo-content {
+      padding: 40px 28px;
+    }
+
+    .demo-content h3 {
+      margin-top: 48px;
+    }
+
+    .demo-footer {
+      padding-left: 40px;
+    }
+
+    .demo-footer .mdl-mini-footer--link-list a {
+      font-size: 13px;
+    }
+
+    .toc {
+      border-left: 4px solid #B39DDB;
+      margin: 24px;
+      padding: 0;
+      padding-left: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .toc h4 {
+      font-size: 0.9rem;
+      margin-top: 0;
+    }
+
+    .toc a {
+      color: #9575CD;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 28px;
+      display: block;
+    }
+
+    .mdl-data-table td {
+      text-align: center;
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Uses a header that contracts as the page scrolls down. -->
+    <style>
+    .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+      padding-right: 0;
+    }
+    </style>
+    <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--waterfall">
+        <!-- Top row, always visible -->
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Torre de Babel</span>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+            <a href="..\index.html" style="color:white;">
+              <i class="material-icons">home</i>
+            </a>
+          </div>
+        </div>
+        <!-- Bottom row, not visible on scroll -->
+        <div class="mdl-layout__header-row">
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="http://cobachih.edu.mx/">INSTITUCIÓN</a>
+            <a class="mdl-navigation__link" href="equipo_de_desarrollo.html">ACERCA DE NOSOTROS</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Contenido</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="competencias_genericas.html">Competencias genéricas</a>
+          <a class="mdl-navigation__link" href="bloque_1.html">Bloque 1</a>
+          <a class="mdl-navigation__link" href="bloque_2.html">Bloque 2</a>
+          <a class="mdl-navigation__link" href="bloque_3.html">Bloque 3</a>
+          <a class="mdl-navigation__link" href="elementos_de_apoyo.html">Elementos de apoyo</a>
+          <a class="mdl-navigation__link" href="glosario.html">Glosario</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+
+        <div class="page-content">
+
+          <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+            <h3>Bloque 1</h3>
+
+            <ul class="toc">
+              <h4>Contenido</h4>
+              <a href="#alfabeto">Alfabeto griego</a>
+              <a href="#vocales">Vocales</a>
+              <a href="#consonantes">Consonantes</a>
+              <a href="#signos">Signos ortográficos</a>
+              <a href="#trasliteracion">Trasliteración</a>
+            </ul>
+            <br>
+            <br>
+
+            <h4 id="alfabeto">Alfabeto griego</h4>
+            <p>
+              El alfabeto griego procede de la escritura fenicia. Los griegos tomaron el alfabeto de los fenicios hacia el siglo IX a. C.,
+               gracias a los contactos comerciales que mantenían con ellos a lo largo de todo el Mediterráneo, especialmente en torno a Chipre o Rodas.
+               Sin embargo, los griegos incorporaron las vocales a la escritura fenicia, mitigando la principal falencia de éste.
+            </p>
+            <br>
+            <p>
+              Después de toda una serie de modificaciones y adaptaciones que duraron siglos, finalmente el alfabeto griego quedó compuesto de 24 signos.
+            </p>
+            <br>
+
+            <div align="center">
+              <table class="mdl-data-table mdl-js-data-table mdl-data-table">
+                <thead style="background-color: #7E57C2">
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric" style="color:white">Grafía</th>
+                    <th style="color:white">Mayúscula</th>
+                    <th style="color:white">Minúscula</th>
+                    <th style="text-align:left; color:white">Grafía</th>
+                    <th style="color:white">Mayúscula</th>
+                    <th style="color:white">Minúscula</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Alfa</td>
+                    <td>&Alpha;</td>
+                    <td>&alpha;</td>
+                    <td style="text-align:left">Ni</td>
+                    <td>&Nu;</td>
+                    <td>&nu;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Beta</td>
+                    <td>&Beta;</td>
+                    <td>&beta;</td>
+                    <td style="text-align:left">Csi</td>
+                    <td>&Xi;</td>
+                    <td>&xi;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Gamma</td>
+                    <td>&Gamma;</td>
+                    <td>&gamma;</td>
+                    <td style="text-align:left">Ómicron</td>
+                    <td>&Omicron;</td>
+                    <td>&omicron;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Delta</td>
+                    <td>&Delta;</td>
+                    <td>&delta;</td>
+                    <td style="text-align:left">Pi</td>
+                    <td>&Pi;</td>
+                    <td>&pi;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Épsilon</td>
+                    <td>&Epsilon;</td>
+                    <td>&epsilon;</td>
+                    <td style="text-align:left">Rho</td>
+                    <td>&Rho;</td>
+                    <td>&rho;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Dseta</td>
+                    <td>&Zeta;</td>
+                    <td>&zeta;</td>
+                    <td style="text-align:left">Sigma</td>
+                    <td>&Sigma;</td>
+                    <td>&sigma; &sigmaf;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Eta</td>
+                    <td>&Eta;</td>
+                    <td>&eta;</td>
+                    <td style="text-align:left">Tau</td>
+                    <td>&Tau;</td>
+                    <td>&tau;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Teta</td>
+                    <td>&Theta;</td>
+                    <td>&theta;</td>
+                    <td style="text-align:left">Ípsilon</td>
+                    <td>&Upsilon;</td>
+                    <td>&upsilon;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Iota</td>
+                    <td>&Iota;</td>
+                    <td>&iota;</td>
+                    <td style="text-align:left">Phi</td>
+                    <td>&Phi;</td>
+                    <td>&phi;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Kappa</td>
+                    <td>&Kappa;</td>
+                    <td>&kappa;</td>
+                    <td style="text-align:left">Ji</td>
+                    <td>&Chi;</td>
+                    <td>&chi;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Lambda</td>
+                    <td>&Lambda;</td>
+                    <td>&lambda;</td>
+                    <td style="text-align:left">Psi</td>
+                    <td>&Psi;</td>
+                    <td>&psi;</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">Mi</td>
+                    <td>&Mu;</td>
+                    <td>&mu;</td>
+                    <td style="text-align:left">Omega</td>
+                    <td>&Omega;</td>
+                    <td>&omega;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br>
+            <br>
+
+            <h4 id="vocales">Vocales</h4>
+            <p>
+              Dentro del alfabeto griego existen 7 vocales que se pueden clasificar de acurdo a los criterios de cantidad y cualidad.
+            </p>
+
+            <div align="center">
+              <table class="mdl-data-table mdl-js-data-table mdl-data-table">
+                <thead style="background-color: #7E57C2">
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric" style="color:white; text-align:center">Cantidad</th>
+                    <th style="color:white; text-align:center">Cualidad</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      Según la duración al pronunciarse.
+                      <ul style="text-align:left">
+                        <li>
+                          Largas
+                          <ul>
+                            <li>&eta;</li>
+                            <li>&omega;</li>
+                          </ul>
+                        </li>
+                        <li>
+                          Breves
+                          <ul>
+                            <li>&epsilon;</li>
+                            <li>&omicron;</li>
+                          </ul>
+                        </li>
+                        <li>
+                          Variables
+                          <ul>
+                            <li>&alpha;</li>
+                            <li>&iota;</li>
+                            <li>&upsilon;</li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </td>
+                    <td>
+                      Según la abertura de la boca al pronunciarse.
+                      <ul style="text-align:left">
+                        <li>
+                          Ásperas o abiertas
+                          <ul>
+                            <li>&alpha;</li>
+                            <li>&epsilon;</li>
+                            <li>&omicron;</li>
+                            <li>&eta;</li>
+                            <li>&omega;</li>
+                          </ul>
+                        </li>
+                        <li>
+                          Débiles o cerradas
+                          <ul>
+                            <li>&iota;</li>
+                            <li>&upsilon;</li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <br>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <br>
+            <br>
+
+            <h4 id="consonantes">Consonantes</h4>
+            <p>
+              Las 17 grafías restantes (que no son vocales) del alfabeto griego son las consonantes. En estas podemos encontrar
+               una peculiaridad, y es que 3 de las consonantes son dobles:
+            </p>
+            <ul>
+              <li>&zeta; (dzeta)</li>
+              <li>&xi; (csi)</li>
+              <li>&psi; (psi)</li>
+            </ul>
+            <br>
+            <br>
+
+            <h4 id="signos">Signos ortográficos</h4>
+            <p>
+              Aristófanes de Bizancio (257-180 a.C.) fue un importante gramático que se dio cuenta de que la lengua griega, dada la expansión
+               de su ciudad Bizancio, entraba en contacto con múltiples lenguas más, de las que podría contaminarse y perder su pronunciación original.
+               Para evitarlo, Aristófanes introdujo los elementos gráficos conocidos como espíritus y acentos.
+            </p>
+            <br>
+
+            <h5>Acentos</h5>
+            <p>
+              <strong>Agudo (´): </strong>
+              se coloca en cualquiera de las últimas tres sílabas de una palabra e indica elevación en el tono de voz.
+            </p>
+            <p>
+              <strong>Grave (`): </strong>
+              indica depresión de un tono, puede ir en sílabas que no tengan otro acento y en la última sílaba cuando lleva acento agudo pero sigue otra palabra, se sustituye.
+            </p>
+            <p>
+              <strong>Circunflejo (&#126;): </strong>
+              indica supresión y elevación del tono, sólo puede ir en la penúltima y última sílaba.
+            </p>
+            <br>
+
+            <h5>Espíritus</h5>
+            <p>
+              Se colocan en vocales o en la letra &rho; (sólo cuando &rho; se encuentra en el principio de la palabra)
+            </p>
+            <p>
+              <strong>Suave (ʼ): </strong>
+              no afecta la pronunciación.
+            </p>
+            <p>
+              <strong>Áspero (ʽ): </strong>
+              se pronuncia como una 'H' inglesa, como una aspiración. Éste espíritu fue castellanizado como una 'H' inicial
+            </p>
+            <br>
+            <br>
+
+            <h4 id="trasliteracion">Trasliteración</h4>
+
+          </div>
+        </div>
+
+        </div>
+
+      </main>
+    </div>
+
+  </body>
+
+</html>
