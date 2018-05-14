@@ -112,6 +112,23 @@
           <div class="demo-container mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+          <div style="float:right; font-weight:bold">
+          	<script type="text/javascript">
+			//<![CDATA[
+			function makeArray() {
+				for (i = 0; i<makeArray.arguments.length; i++)
+				this[i + 1] = makeArray.arguments[i];}
+				var months = new makeArray('Enero','Febrero','Marzo','Abril','Mayo',
+				'Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+				var date = new Date();
+				var day = date.getDate();
+				var month = date.getMonth() + 1;
+				var yy = date.getYear();
+				var year = (yy < 1000) ? yy + 1900 : yy;
+				document.write(day + " de " + months[month] + " del " + year);
+				//]]>
+			</script>
+            </div>
             <h3>¡Bienvenido!</h3>
               <p>
                 Torre de Babel es un sitio web que tiene como objetivo funcionar como una herramienta para los estudiantes de Educación
